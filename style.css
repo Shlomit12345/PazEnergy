@@ -1,15 +1,83 @@
 * {
     box-sizing: border-box;
-    border: 1px solid;
+   // border: 1px solid;
   }
+
+  .aaa {
+      width:900px;
+      height:100%;
+margin:auto;
+     //text-align: center;
+  }
+
+  .ccc {
+float:right;
+position:relative;
+top:25px;
+//padding-top:30px;
+background-color: limegreen;
+height:100px;
+width:150px;
+  }
+
+
+
+  .ddd::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .ddd {
+height:100px;
+width:750px;
+  }
+
+.eee {
+    background-color: green;
+    height:50%;
+    width:100%;
+}
+
+.fff {
+    background-color: grey;
+    height:50%;
+    width:100%;
+    background-color: yellow;
+    width:100%;
+    text-align:right;
+    direction:rtl;
+}
+
+
+p {
+    text-align:center;
+}
+
+li {
+    display:inline;
+    background-color:pink;
+}
+
+  header {
+      height:100px;
+  }
+
+  footer {
+    height:50px;
+}
 
   .main{
 width:900px;
 margin:auto;
+height:500px;
+background-color: yellow;
   }
 
   .column {
     float: right;
+    background-color: red;
+    margin:10px;
   }
 
   .row::after {
@@ -20,4 +88,36 @@ margin:auto;
 
   .width-250 {
     width: 250px;
+    height: 200px;
   }
+
+  .row {
+    height: 200px;
+    //width:250px;
+    
+  }
+
+  .r1 {
+      background-color: blue;
+  }
+
+  .r2 {
+    background-color: pink;
+}
+
+  .width-250 > img:first-child { 
+      width:95px;
+      height:95px;
+}
+
+/* .hhh {
+    width:50px;
+    height:50px;
+}  */
+
+.bbb {
+    width:900px;
+    height:100%;
+margin:auto;
+    text-align: center;
+}
