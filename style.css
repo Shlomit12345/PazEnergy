@@ -8,11 +8,9 @@
    direction:rtl;
   }
 
-  header {
+header {
     background-color: grey;
-    
-    
-  }
+ }
 
 .z {
     width:900px;
@@ -66,65 +64,61 @@ li {
 
 
 
-
-
-  footer {
-    height:50px;
+.main{
+    width:900px;
+    margin:auto;
+    height:800px;
 }
 
-  .main{
-width:900px;
-margin:auto;
-height:800px;
-//background-color: yellow;
-  }
+.top-row-container {
+    height: 390px;
+}
 
-  .column {
-    float: right;
-    //background-color: red;
-    /* margin:10px; */
-    //margin:auto;
-  }
+.bottom-row-container {
+    height: 250px;
+}
 
-  .row::after {
+.top-row-container::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .width-250 {
+.bottom-row-container::after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+
+.top-row-right-box {
     width: 291px;
     height: 354px;
-  }
+    float: right;
+    border-radius: 0 0 30px 0;
+    margin-left:6.75px;
+    margin-top:15px;
+    position:relative;
+}
 
-  .width-111 {
+.top-row-center-box {
     width: 291px;
-    height: 215px;  
-  }
-
-  .row {
-      marging-top-20px;
-
-  }
-
-
-  .yyy1 {
-      border-radius: 0 0 30px 0;
-      margin-left:6.75px;
-      margin-top:15px;
-      position:relative;
-  }
-
-  .yyy2 {
+    height: 354px;
+    float: right;
     border-radius: 0 0 30px 0;
     margin:6.75px;
     margin-top:15px;
+    position:relative;
 }
 
-.yyy3 {
+.top-row-left-box {
+    width: 291px;
+    height: 354px;
+    float: right;
     border-radius: 0 0 30px 0;
     margin-right:6.75px;
     margin-top:15px;
+    position:relative;
 }
 
 .grey-bg-container {
@@ -132,98 +126,111 @@ height:800px;
     position: absolute;
     top:250px;
     font-size:13px;
-    color:#FFF;
+    color:white;
     margin-right:5px;
     margin-left:20px;
     
 }
-  .zzz {
+  .top-row-radius{
     border-radius: 0 0 30px 0;
-
 }
 
-
-.hhh {
+.top-anchor {
     text-align: left;
-    //direction:ltr;
-color:#FFF;
-float:left;
-padding-left:5px;
-display:inline-block;
+    color:white;
+    float:left;
+    padding-left:5px;
+    display:inline-block;
 }
 
-h4 {
+.top-h4 {
     margin-right:10px;
     padding-top:5px;
     padding-bottom:5px;
 }
 
- .sss {
-    color:grey;
-    float:left;
-} 
 
-
-.aaa1 {
+.bottom-row-right-box {
+    width: 291px;
+    height: 215px;  
+    float: right;
     border-radius: 0 30px 0 0;
     margin-left:6.75px;
-    //margin-top:15px;
     position:relative;
     background-color:lightgrey;
     font-size: 13px;
     color: grey;
 }
 
-.ggg {
+.bottom-row-center-box {
+    width: 291px;
+    height: 215px;  
+    float: right;
+    border-radius: 0 30px 0 0;
+    margin-left:6.75px;
+    position:relative;
+    background-color:lightgrey;
+    font-size: 13px;
+    color: grey;
+}
+
+
+.bottom-row-left-box {
+    width: 291px;
+    height: 215px;  
+    float: right;
+    border-radius: 0 30px 0 0;
+    margin-left:6.75px;
+    position:relative;
+    background-color:lightgrey;
+    font-size: 13px;
+    color: grey;
+}
+
+.bottom-h4 {
     padding-top:15px;
     padding-bottom:15px;
-    //border:10px solid black;
-    //border-bottom:black;
     margin-right:20.5px;
-    //text-decoration: underline;
 }
 
 .line {
-
     border-bottom:1px solid grey;
-
-  width:240px;
-  margin-right:20.5px;
-  margin-bottom:15px;
+    width:240px;
+    margin-right:20.5px;
+    margin-bottom:15px;
 }
 
-.jjj {
-    //width:250px;
+.bottom-img {
     margin:auto;
     display:block;
     margin-top:5px;
     margin-bottom:10px;
 }
 
-.ttt {
+.top-p {
     margin-right:10px;
     margin-left:10px;
 }
-  .r1 {
-    height: 390px;
-      //background-color: blue;
-  }
 
-  .r2 {
-    height: 250px;
-    //background-color: pink;
+.bottom-anchor {
+    color:grey;
+    float:left;
+} 
+
+.triangle-image {
+    margin-left:5px;
+    margin-right:5px;
+    float:left;
 }
 
+
+footer {
+    height:50px;
+}
 
 .bbb {
     width:900px;
     height:100%;
-margin:auto;
+    margin:auto;
     text-align: center;
-}
-
-.marging-left-right-5px {
-    margin-left:5px;
-    margin-right:5px;
-    float:left;
 }
