@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid;
+  }
+
+  .main{
+width:900px;
+margin:auto;
+  }
+
+  .column {
+    float: right;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .width-250 {
+    width: 250px;
+  }
