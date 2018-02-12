@@ -4,13 +4,22 @@
    font-family:Arial;
    margin:0;
    padding:0;
+   text-align:right;
+   direction:rtl;
   }
 
-header {
+  header {
+    background-color: grey;
+    
+    
+  }
+
+.z {
     width:900px;
     height:100px;
-    margin:auto;
-    background-color: grey;
+    //margin:auto;
+    text-align: center;
+    //background-color: grey;
 }
 
 .logo-container {
@@ -44,8 +53,8 @@ header {
     width:100%;
     height:50%;
     //background-color: orange;
-    text-align:right;
-    direction:rtl;
+    //text-align:right;
+    //direction:rtl;
 }
 
 li {
@@ -55,9 +64,9 @@ li {
 
 
 
-p {
+/* p {
     text-align:center;
-}
+} */
 
 /* .kkk {
     border-radius: 90%;
@@ -124,11 +133,36 @@ height:800px;
 .grey-bg-container {
     background-color: grey;
     position: absolute;
-    top:100px;
+    top:250px;
+    font-size:13px;
+    color:#FFF;
+    margin-right:5px;
+    margin-left:20px;
+    
 }
   .zzz {
     border-radius: 0 0 30px 0;
 
+}
+
+
+.hhh {
+    text-align: left;
+    //direction:ltr;
+color:#FFF;
+//float:left;
+padding-left:5px;
+}
+
+h4 {
+    margin-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.ttt {
+    margin-right:10px;
+    margin-left:10px;
 }
   .r1 {
     height: 400px;
@@ -151,4 +185,5 @@ margin:auto;
 .marging-left-right-5px {
     margin-left:5px;
     margin-right:5px;
+    float:left;
 }
