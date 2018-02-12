@@ -64,14 +64,6 @@ li {
 
 
 
-/* p {
-    text-align:center;
-} */
-
-/* .kkk {
-    border-radius: 90%;
-} */
-
 
 
 
@@ -103,6 +95,11 @@ height:800px;
   .width-250 {
     width: 291px;
     height: 354px;
+  }
+
+  .width-111 {
+    width: 291px;
+    height: 215px;  
   }
 
   .row {
@@ -150,8 +147,9 @@ height:800px;
     text-align: left;
     //direction:ltr;
 color:#FFF;
-//float:left;
+float:left;
 padding-left:5px;
+display:inline-block;
 }
 
 h4 {
@@ -160,18 +158,60 @@ h4 {
     padding-bottom:5px;
 }
 
+ .sss {
+    color:grey;
+    float:left;
+} 
+
+
+.aaa1 {
+    border-radius: 0 30px 0 0;
+    margin-left:6.75px;
+    //margin-top:15px;
+    position:relative;
+    background-color:lightgrey;
+    font-size: 13px;
+    color: grey;
+}
+
+.ggg {
+    padding-top:15px;
+    padding-bottom:15px;
+    //border:10px solid black;
+    //border-bottom:black;
+    margin-right:20.5px;
+    //text-decoration: underline;
+}
+
+.line {
+
+    border-bottom:1px solid grey;
+
+  width:240px;
+  margin-right:20.5px;
+  margin-bottom:15px;
+}
+
+.jjj {
+    //width:250px;
+    margin:auto;
+    display:block;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
 .ttt {
     margin-right:10px;
     margin-left:10px;
 }
   .r1 {
-    height: 400px;
+    height: 390px;
       //background-color: blue;
   }
 
   .r2 {
-    height: 400px;
-    background-color: pink;
+    height: 250px;
+    //background-color: pink;
 }
 
 
