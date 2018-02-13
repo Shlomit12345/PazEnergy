@@ -57,7 +57,6 @@ header {
 
 li {
     display:inline;
-    background-color:pink;
 }
 
 
@@ -207,6 +206,19 @@ li {
     margin-bottom:10px;
 }
 
+.bottom-img-left {
+    //margin:auto;
+    display:inline-block;
+    float:left;
+    //margin-top:5px;
+    //margin-bottom:10px;
+}
+
+.bottom-row-left-menu {
+    display:inline-block;
+    float:right;
+}
+
 .top-p {
     margin-right:10px;
     margin-left:10px;
@@ -222,6 +234,48 @@ li {
     margin-right:5px;
     float:left;
 }
+
+
+
+.bottom-img-left {
+    //margin:auto;
+    display:inline-block;
+    float:left;
+    //margin-top:5px;
+    //margin-bottom:10px;
+}
+
+.bottom-row-left-container {
+    position:relative;
+ }  
+
+
+.bottom-row-left-box> .line {
+    margin-bottom:0;
+}
+
+ .bottom-row-left-container > div > ul > li {
+    display: block;
+} 
+
+.bottom-row-left-container > div > ul {
+
+    position: absolute;
+    top:15px;
+    right:20.5px;
+} 
+/* 
+.bottom-row-left-container > img { */
+    /* .bottom-row-left-container:nth-child(2){ */
+        .kkk {
+    position: absolute;
+    top:0; 
+    left:10px;
+    margin-left:10px;
+    background-color:red;
+    height:250x;
+} 
+
 
 
 footer {
