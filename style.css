@@ -210,15 +210,16 @@ input {
     float:left;
 }
 
-.bottom-row-left-menu {
-    display:inline-block;
-    float:right;
-}
-
-.bottom-anchor {
+.bottom-anchor-details {
     color:grey;
     float:left;
 } 
+
+.bottom-anchor-map {
+    width:50px;
+    color:grey;
+    float:right;
+ } 
 
 .triangle-image {
     float:left;

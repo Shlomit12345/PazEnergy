@@ -1,0 +1,56 @@
+
+
+* {
+    font-family:Arial;
+    text-align:right;
+    direction:rtl;
+    margin:0;
+    padding:0;
+ }
+
+h4 {
+    text-align:center;
+    margin:10px;
+}
+
+.container {
+     width:500px;
+     height:500px;
+     margin:auto;
+     border: 2px solid lightgrey;
+     padding:20px;
+}
+
+.form-item {
+    margin-top:5px;
+}
+
+.form-item > label {
+    width: 45%;
+    display: block;
+    float: right;
+    text-align: right;
+    padding: 5px;
+}
+  
+.form-item > input {
+    width: 45%;
+    display: block;
+    float: right;
+    padding: 5px;
+}
+  
+.form-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.textarea-container {
+      margin-top:10px;
+}
+
+button {
+      margin-right:200px;
+      margin-top:20px;
+}

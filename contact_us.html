@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="contact_us.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <p>צור קשר</p>
+    <h4>צור קשר</h4>
+    <div class="container">
+            <h4>צור קשר</h4>
+            <P>
+                ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם.
+            </P>
+            <p>השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+            <br>
+            <br>
+        <form>
+            <div class="form-item">
+                <label for="fname">* שם פרטי</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+            <div class="form-item">
+                <label for="lname">* שם משפחה</label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <div class="form-item">
+                <label for="f-number">* טלפון</label>
+                <input type="number" name="p-number" id="f-number" required>
+            </div>
+            <div class="form-item">
+                <label for="email">* E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="textarea-container">
+                <textarea cols="65" rows="5">תוכן הפניה</textarea>
+            </div>
+            <button type="submit" onclick="clickSubmit()">שלח</button>     
+        </form>
+    </div>
 </body>
 </html>
+
+
+
