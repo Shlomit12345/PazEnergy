@@ -12,12 +12,12 @@ header {
     background-color: grey;
  }
 
-.z {
+.header-container {
     width:900px;
     height:100px;
-    //margin:auto;
+    margin:auto;
     text-align: center;
-    //background-color: grey;
+    //background-color: blue;
 }
 
 .logo-container {
@@ -39,6 +39,7 @@ header {
 .header-left-container {
     width:750px;
     height:100px;
+ 
 }
 
 .header-search-row {
@@ -54,6 +55,28 @@ header {
     //text-align:right;
     //direction:rtl;
 }
+/* 
+.a {
+    width:100%;
+}
+.b {
+    width:100%; 
+} */
+
+/* header-menu-container li {
+    float: right;
+    width:12%;
+} */
+
+/* bottom-row-left-container li{
+    display:inline;
+}
+
+footer-menu-container  > ul > li {
+    display:inline;
+    color:red;
+
+} */
 
 li {
     display:inline;
@@ -61,12 +84,10 @@ li {
 
 
 
-
-
 .main{
     width:900px;
     margin:auto;
-    height:800px;
+    height:700px;
 }
 
 .top-row-container {
@@ -227,12 +248,15 @@ li {
 .bottom-anchor {
     color:grey;
     float:left;
+
+
 } 
 
 .triangle-image {
     margin-left:5px;
     margin-right:5px;
     float:left;
+    padding-top:4px;
 }
 
 
@@ -256,6 +280,8 @@ li {
 
  .bottom-row-left-container > div > ul > li {
     display: block;
+    /* text-align:right;
+    direction:rtl; */
 } 
 
 .bottom-row-left-container > div > ul {
@@ -264,27 +290,44 @@ li {
     top:15px;
     right:20.5px;
 } 
-/* 
-.bottom-row-left-container > img { */
-    /* .bottom-row-left-container:nth-child(2){ */
-        .kkk {
+
+.bottom-row-left-img-container { 
+    /* .bottom-row-left-container:nth-child(2){  */
+    /* .bottom-row-left-container:last-child{ */
     position: absolute;
     top:0; 
-    left:10px;
-    margin-left:10px;
-    background-color:red;
-    height:250x;
+    left:30px;
+
 } 
 
 
 
 footer {
-    height:50px;
+    background-color: grey;
 }
 
-.bbb {
+.footer-container {
     width:900px;
-    height:100%;
+    height:50px;
     margin:auto;
     text-align: center;
+    /* display:inline-block; */
+}
+
+
+.footer-menu-container {
+    display:inline-block;
+    float:right;
+    
+}
+
+.footer-img-container {
+    display:inline-block;
+    float:left;
+}
+
+.footer-menu-container > ul > li > a {
+    color:white;
+    border-right: 1px solid white;
+    padding-right:5px;
 }
