@@ -39,13 +39,14 @@ header {
 .header-left-container {
     width:750px;
     height:100px;
- 
+ float:left;
 }
 
 .header-search-row {
     //background-color: green;
     width:100%;
     height:50%;
+    margin-top:15px;
 }
 
 .header-menu-container {
@@ -55,6 +56,34 @@ header {
     //text-align:right;
     //direction:rtl;
 }
+
+form{
+float: left;
+}
+
+label{
+    padding-left: 10px;
+    color: white;
+    font-size: 13px;
+
+}
+
+input {
+    border-radius: 0 10px 0 0;
+   
+}
+
+::placeholder {
+    color: black;
+    padding-right:2px;
+}
+
+.aaa {
+    float:left;
+}
+
+
+
 /* 
 .a {
     width:100%;
@@ -78,9 +107,71 @@ footer-menu-container  > ul > li {
 
 } */
 
-li {
+ /* li {
     display:inline;
+}  */
+
+/* 
+ .header-menu-container > div > ul > li { */
+    .header-menu-container > div > ul > li {
+    display:inline;
+    //float: right;
+    width:10px;
+border-left:1px solid white;
+
+    list-style:none;
+} 
+
+.header-menu-container >div > ul > li > a {
+text-decoration:none;
+color:white;
+font-weight: bold;
 }
+
+.header-menu-container >div > ul > li > a:hover { 
+    /* a:hover{ */
+text-decoration:underline;
+color:blue;
+}
+
+
+
+
+/* 
+.header-menu-container > div > ul > li:nth-child(2) {
+    background-color:red;
+    color:pink;
+}  
+
+.header-menu-container > div > ul > li:nth-child(3) {
+    background-color:red;
+    color:pink;
+}  
+.header-menu-container > div > ul > li:nth-child(4) {
+    background-color:red;
+    color:pink;
+    width:20%;
+}  
+.header-menu-container > div > ul > li:nth-child(5) {
+    background-color:red;
+    color:pink;
+    width:20%;
+}  
+.header-menu-container > div > ul > li:nth-child(6) {
+    background-color:red;
+    color:pink;
+    width:15%;
+}  
+.header-menu-container > div > ul > li:nth-child(7) {
+    background-color:red;
+    color:pink;
+}  
+.header-menu-container > div > ul > li:nth-child(8) {
+    background-color:red;
+    color:pink;
+    width:15%;
+}   */
+
 
 
 
@@ -144,6 +235,7 @@ li {
 .grey-bg-container {
     background-color: grey;
     position: absolute;
+    height:100px;
     top:250px;
     font-size:13px;
     color:white;
@@ -318,16 +410,81 @@ footer {
 .footer-menu-container {
     display:inline-block;
     float:right;
+    padding-top:25px;
     
 }
 
 .footer-img-container {
     display:inline-block;
     float:left;
+    padding-top:27px;
 }
+
+
+
+.footer-menu-container > ul > li, .bottom-row-left-container > ul > li {
+    display:inline;
+} 
+
 
 .footer-menu-container > ul > li > a {
     color:white;
     border-right: 1px solid white;
     padding-right:5px;
+    text-decoration: none;
+}
+
+.footer-menu-container > ul > li > a:hover { 
+    /* a:hover{ */
+text-decoration:underline;
+color:blue;
+}
+
+
+.bottom-row-left-container > div > ul > li > a:hover { 
+    /* a:hover{ */
+text-decoration:underline;
+color:blue;
+}
+
+/* .top-row-container > div > div > a:hover {
+    text-decoration:underline;
+color:blue;
+} */
+
+
+.header-search-row > form > label > a {
+    text-decoration:none;
+    color:white;
+}
+
+.header-search-row > form > label > a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+ .top-anchor:hover {
+    text-decoration:underline;
+color:blue;
+}
+
+.top-row-left-box > div > a {
+    position:relative;
+    top:15px;
+}
+
+.top-row-center-box > div > a {
+    position:relative;
+    top:15px;
+}
+
+
+/* .bottom-row-container > div > div > a:hover {
+    text-decoration:underline;
+color:blue;
+} */
+
+.bottom-anchor:hover {
+    text-decoration:underline;
+color:blue;
 }
